@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(20, 5, 26);
+    font-family: monospace;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(63, 9, 66);
+    margin: 5px;
+    padding:5px;
+    display: flexbox;
+    border-radius: 5px 30px;
+    border-bottom: 5px solid grey;
+}
+.header .content {
+    width: 100px;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    margin: 5px 10px;
+    background-color: rgb(83, 37, 126);
+    padding: 10px 20px;
+    border-bottom: 5px solid grey;
+    border-radius: 3px 20px;
+}
+.header .content a{
+    text-decoration: none;
+    color: rgb(224, 200, 168);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
